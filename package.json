@@ -1,0 +1,30 @@
+{
+  "name": "sit725-2024-t2-prac3",
+  "version": "1.0.0",
+  "description": "sit 725 week 3 prac",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lip8023/sit725-2024-t2-prac3.git"
+  },
+  "keywords": [
+  "Nodejs",
+  "Express",
+  "Materialize",
+  "HTML",
+  "JS",
+  "CSS"
+  ],
+  "author": "lip0823",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lip8023/sit725-2024-t2-prac3/issues"
+  },
+  "homepage": "https://github.com/lip8023/sit725-2024-t2-prac3#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
