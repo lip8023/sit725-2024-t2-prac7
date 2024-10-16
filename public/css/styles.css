@@ -1,0 +1,36 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+.user-image-size {
+    height: 56px;
+    margin: 4px 0;
+}
+.main-body {
+    background-color: #F28487;
+    color: white;
+    height: calc(100vh - 32px); /* 确保高度足够 */
+    overflow: auto; /* 添加 overflow 以确保内容不被剪裁 */
+}
+.materialboxed-image {
+    margin: 0 auto;
+    max-height: 100px; /* 使用 max-height */
+    width: auto; /* 保持比例 */
+}
+.click-me-button {
+    background-color: #EE6E73;
+    margin-top: 20px;
+}
+.card {
+    min-height: 250px; /* 确保卡片有足够的高度 */
+    overflow: visible;
+}
+
+.card-content {
+    color: black;
+}
+.card-image img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
