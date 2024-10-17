@@ -47,6 +47,15 @@ $(document).ready(function(){
     $('#clickMeButton').click(clickMe); // 修改这里
     $('#formSubmit').click(()=>{
     submitForm();})
-    addCards(cardList);
+    //addCards(cardList);
+    getProjects();
     $('.modal').modal();
 });
+
+const getProjects = () => {
+    $.get('/api/projects',(response) => {
+    if(response.statusCode==200){
+        addCards(response.data);
+    }
+    })
+}
