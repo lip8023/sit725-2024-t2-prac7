@@ -11,12 +11,12 @@
     "url": "git+https://github.com/lip8023/sit725-2024-t2-prac7.git"
   },
   "keywords": [
-  "Nodejs",
-  "Express",
-  "Materialize",
-  "HTML",
-  "JS",
-  "CSS"
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
   ],
   "author": "lip0823",
   "license": "MIT",
@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/lip8023/sit725-2024-t2-prac7#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "npm": "^10.9.0",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0"
   }
 }
